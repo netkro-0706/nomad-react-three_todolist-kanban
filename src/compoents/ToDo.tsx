@@ -21,7 +21,9 @@ function ToDo({ text, category, id }: IToDo) {
   };
   return (
     <li>
-      <span>{text}</span>
+      <span>
+        {category} {text}
+      </span>
       {category !== "TO_DO" && (
         <button name="TO_DO" onClick={onClick}>
           To Do
