@@ -11,3 +11,6 @@ npm i react-helmet
 npm i --save-dev @types/react-helmet
 npm install recoil
 npm install react-hook-form
+
+npm i react-beautiful-dnd
+npm i --save-dev @types/react-beautiful-dnd
